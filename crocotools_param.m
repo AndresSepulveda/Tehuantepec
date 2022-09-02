@@ -420,7 +420,15 @@ My_ECMWF_dir=[FORC_DATA_DIR,'ERAI/'];                  % ERA-I native native dat
 itolap_ecmwf = 3;                                       %3 records for daily  ECMWF
 % 
 %
-%-----------------------
+%--------------------------------------------------
+%  Options for make_ERA5  
+%--------------------------------------------------
+%
+ERA5_dir = [FORC_DATA_DIR,'ERA5_',CROCO_config,'/'];
+My_ERA5_dir = [FORC_DATA_DIR,'ERA5/'];
+itolap_era5 = 1;
+% 
+%%-----------------------
 % Options for make_OGCM 
 %-----------------------
 %
